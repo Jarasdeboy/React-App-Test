@@ -9,14 +9,7 @@ function App() {
 				<p>
 					Welcome to your MERN droplet!
 				</p>
-				<a
-					className="App-link"
-					href="https://marketplace.digitalocean.com/apps/mern#getting-started"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Getting started
-				</a>
+				<h2>jelow</h2>
 			</header>
 		</div>
 	);
