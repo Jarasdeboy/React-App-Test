@@ -5,11 +5,23 @@ function App() {
 	return (
 		<div className='Contenedor'>
 			<header className='header'>
-				<h1>Soy header</h1>
+				<nav className='nav-bar'>
+					<ul className='lista-options txthead'>
+						<li><a>Home</a></li>
+						<li><a>About</a></li>
+						<li><a>Team</a></li>
+						<li><a>Contact</a></li>
+					</ul>
+				</nav>
 			</header>
-			<main className='main'>
-				<h1>Soy Main</h1>
-			</main>
+			<section className='section'>
+				<div className='user-info'>
+					<div className='box-user-info'>
+						<div className='box-info'></div>
+					</div>
+					<div className='box-user-img'></div>
+				</div>
+			</section>
 			<footer className='footer'>
 				<h1>Soy Footer</h1>
 			</footer>

@@ -3,23 +3,24 @@
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px auto 300px;
+    grid-template-rows: 80px auto 300px;
 }
 
-.header{
-    background-color: aqua;
+.caja-opciones{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-.main{
-    background-color: blanchedalmond;
+.section{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    display: grid;
+    grid-template-columns: auto 1140px auto;
+    grid-template-rows: auto;
 }
 
 .footer{
@@ -28,4 +29,69 @@
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: auto 1140px auto;
+    grid-template-rows: auto;
+}
+
+.nav-bar{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 22px auto;
+}
+
+.lista-options{
+    list-style-type: none; /* Elimina los estilos de viñeta o numeración */
+    padding: 0; /* Elimina el relleno interno */
+    margin: 0; /* Elimina los márgenes */
+    display: flex;
+    justify-content: space-between; /* Separa los elementos de manera uniforme */
+    gap: 25px; /* Espacio entre los elementos */
+}
+
+.txthead{
+    font-size: 18px;
+    /* color: #9041ee; */
+}
+
+.user-info{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+
+}
+
+.box-user-info{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.box-user-img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.box-info{
+    width: 699px;
+    height: 189px;
+    margin-top: 60px;
+    background-color: #9041ee;
+    border-radius: 50px;
 }
