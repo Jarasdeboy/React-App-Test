@@ -7,9 +7,9 @@ function App() {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
-					Welcome to your MERN droplet!
+					Welcome to my Page
 				</p>
-				<h2>jelow</h2>
+				<h2>Raul Martinez</h2>
 			</header>
 		</div>
 	);
