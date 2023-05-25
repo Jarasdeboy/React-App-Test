@@ -23,15 +23,17 @@ function App() {
 							<div className='BigText'>How to Get Consulting Clients</div>
 						</div>
 						<p className='parrafoUser'>Nibh venenatis cras sed felis eget velit aliquet sagittis id. Tellus pellentesque eu tincidunt tortor aliquam nulla.</p>
+						<p className='subparrafo'> Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion led. Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. </p>
+						<a href="#" className='BtnReadme'>read more</a>
 					</div>
 					<div className='box-user-img'>
 						<img className='ImagenP' src ={rutaImagen} alt="Jaime foto"/>
 					</div>
 				</div>
 			</section>
-			<footer className='footer'>
-				<h1>Soy Footer</h1>
-			</footer>
+			<section className='footer'>
+				
+			</section>
 		</div>
 	);
 }
